@@ -180,20 +180,6 @@ img {
   border-color: #c3e6cb;
 }
 
-.alert-dismissible {
-  padding-right: 4.25rem;
-}
-
-.alert-dismissible .close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 1.15rem 1.5rem;
-  color: inherit;
-  cursor: pointer;
-  font-weight: 600;
-}
-
 .link {
   font-size: 12px;
   -webkit-transition: .5s;

@@ -11,16 +11,4 @@
         background-color: #d4edda;
         border-color: #c3e6cb;
     }
-    &-dismissible {
-        padding-right: 4.25rem;
-    }
-    &-dismissible .close {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 1.15rem 1.5rem;
-        color: inherit;
-        cursor: pointer;
-        font-weight: 600;
-    }
 }
