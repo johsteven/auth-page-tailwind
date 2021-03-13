@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+.card {
+    @apply flex flex-col items-center justify-center rounded-lg shadow-lg bg-white;
+}
+
+.center-items {
+    @apply container mx-auto px-5 flex h-full my-16;
+}
+
+.link {
+    @apply text-center text-gray-500;
+}
+
+@tailwind utilities;

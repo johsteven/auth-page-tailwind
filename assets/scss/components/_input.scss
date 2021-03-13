@@ -1,0 +1,30 @@
+.input {
+    border-bottom: 1px solid rgb(170, 170, 170);
+    padding: .75rem 0;
+    padding-right: 20px;
+    padding-bottom: .5rem;
+    color: #202020;
+    width: 100%;
+    display: block;
+    transition: .6s;
+    &-icon {
+        width: 15px;
+        margin-left: -15px;
+        height: 15px;
+        z-index: 1;
+        fill: rgb(120, 120, 120);
+    }
+    &-error-msg {
+        color: red;
+        font-size: 10px;
+    }
+    &:focus {
+        border-bottom: 1px solid #000
+    }
+    &.invalid {
+        border-color: red !important;
+    }
+    &.valid {
+        border-color: rgb(22, 165, 22) !important
+    }
+}

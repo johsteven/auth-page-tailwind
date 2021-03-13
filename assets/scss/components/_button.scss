@@ -1,0 +1,19 @@
+.btn {
+    border-radius: 5px;
+    color: #fff;
+    padding: .95rem 3rem;
+    transition: .4s;
+    font-weight: 600;
+    &-primary {
+        background-color: $primary-color;
+    }
+    &:hover,
+    &:focus {
+        background-color: darken($color: $primary-color, $amount: 6);
+        box-shadow: 0 7px 20px 0 rgba($color: $primary-color, $alpha: .4);
+    }
+    &:active {
+        scale: 1.05;
+        background-color: darken($color: $primary-color, $amount: 0);
+    }
+}

@@ -1,0 +1,8 @@
+.link {
+    font-size: 12px;
+    transition: .5s;
+    &:focus,
+    &:hover {
+        text-decoration: underline !important;
+    }
+}
